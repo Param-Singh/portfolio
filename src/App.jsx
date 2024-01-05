@@ -11,7 +11,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <div className="relative z-0">
         <div>
           <Navbar />
