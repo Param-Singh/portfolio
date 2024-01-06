@@ -1,12 +1,12 @@
 import bwmap from './backgrounds/bw-map.jpeg';
-import nairobi from './backgrounds/nairobi.png';
+// import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+// import shaq from './personal/shaq.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -49,16 +49,16 @@ import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+// import space from './projects/space-hub.png';
 
 export {
   bwmap,
-  nairobi,
+  // nairobi,
   whiteabstract,
   worldmap,
   logo,
   logotext,
-  shaq,
+  // shaq,
   backend,
   ux,
   frontend,
@@ -92,7 +92,7 @@ export {
   math,
   movie,
   nyeusi,
-  space,
+  // space,
   coverhunt,
   dcc,
   kelhel,
