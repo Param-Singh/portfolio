@@ -27,6 +27,7 @@ import {
   dcc,
   kelhel,
   microverse,
+  signdesk,
 } from '../assets';
 
 export const navLinks = [
@@ -124,114 +125,117 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Software Engineer Intern',
+    company_name: 'Signdesk',
+    icon: signdesk,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'May 2022 - July 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Associate Software Engineer (MERN)',
+    company_name: 'Signdesk',
+    icon: signdesk,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Aug 2022  - Oct 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Software Engineer(MERN & GO)',
+    company_name: 'Signdesk',
+    icon: signdesk,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Oct 2023 - Present',
   },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+  // {
+  //   title: 'Full Stack Developer',
+  //   company_name: 'Diversity Cyber Council',
+  //   icon: dcc,
+  //   iconBg: '#333333',
+  //   date: 'Sep 2022 - Present',
+  // },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    id: 'project-2',
+    name: 'Search Engine',
+    description: 'Search Engine with Voice Recognition',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'voice activated',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'sass',
         color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
       },
       {
         name: 'restapi',
         color: 'green-text-gradient',
+      }
+    ],
+    image: komikult,
+    repo: 'https://github.com/Param-Singh/Search-Engine',
+  },
+  {
+    id: 'project-1',
+    name: 'Peer to Peer chat',
+    description:
+      'A Decentaralized PEER2PEER Chatting App.',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'peer2peer',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'decentralized',
         color: 'pink-text-gradient',
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/Param-Singh/peer2peer-textapp',
+    // demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
+  // {
+  //   id: 'project-3',
+  //   name: 'Math Magicians',
+  //   description: 'This is a single-page calculator app built with React',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: math,
+  //   repo: 'https://github.com/shaqdeff/Math-Magicians',
+  //   demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+  // },
   {
     id: 'project-4',
     name: 'Movie Metro',
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Reactjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'restApi',
         color: 'green-text-gradient',
       },
       {
@@ -240,8 +244,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/Param-Singh/DiscoverMovies',
+    demo: 'https://param-singh.github.io/DiscoverMovies/',
   },
   {
     id: 'project-5',
@@ -263,8 +267,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    // repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    // demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
 ];
 
